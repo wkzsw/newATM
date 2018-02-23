@@ -54,9 +54,8 @@ public class UserMenuMethod {
 		System.out.println("请输入存款金额：");
 		//来取得此对象的原始值
 		double index = Double.valueOf(scanner.nextLine());
-		System.out.println("1、确认");
-		System.out.println("2、重新输入");
-		System.out.println("3、返回菜单");
+		System.out.println("1、确认  2.重新输入  3.返回菜单");
+		
 		String number = scanner.nextLine();
 		//判断
 		if (number.equals("1")) {
@@ -120,9 +119,8 @@ public class UserMenuMethod {
 		System.out.println("取款业务");
 		System.out.println("请输入取款金额：");
 		double index = Double.valueOf(scanner.nextLine());
-		System.out.println("1、确认");
-		System.out.println("2、重新输入");
-		System.out.println("3、返回菜单");
+		System.out.println("1、确认  2.重新输入  3.返回菜单");
+		
 		String number = scanner.nextLine();
 		//请输入取款金额
 		if (number.equals("1")) {
@@ -195,9 +193,8 @@ public class UserMenuMethod {
 		String transfer = scanner.nextLine();
 		System.out.println("请输入转账金额：");
 		double money = Double.valueOf(scanner.nextLine());
-		System.out.println("1、确认");
-		System.out.println("2、重新输入");
-		System.out.println("3、返回菜单");
+		System.out.println("1、确认  2.重新输入  3.返回菜单");
+		
 		String number1 = scanner.nextLine();
 		if (number1.equals("1")) {
 			AccountJudge judge = new AccountJudge();
