@@ -37,12 +37,7 @@ public class Login {
 		LoginUser loginUser = new LoginUser();
 		
 		Scanner scanner =new Scanner(System.in);
-		/*System.out.println("*********************");
-		System.out.println("用户登录");
-		System.out.println("请选择用户登录类型：");
-		System.out.println("1、管理员用户登录");
-		System.out.println("2、普通用户登录");
-		System.out.println("*********************");*/
+		
 		 LoginProp lp=new  LoginProp();
 		 lp.select();
 		String str = scanner.nextLine();
